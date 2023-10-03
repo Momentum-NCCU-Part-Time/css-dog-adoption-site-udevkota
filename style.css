@@ -1,0 +1,118 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Oswald:wght@400;600&display=swap');
+
+*{
+  box-sizing: border-box;
+  font-family: 'Open Sans';
+}
+
+/* CSS for header */
+
+header, footer{
+  display: flex;
+}
+header{
+  background-color: #004175;
+  color: white; 
+  padding: 1%;
+  border-bottom: 5px solid #89DEEF;
+  justify-content: space-between;
+}
+
+.navLi{
+  display: inline-block;
+}
+
+.nav {
+  color: white;
+  text-decoration: none;
+}
+
+.homePageDog{
+  width: 100%;
+}
+
+.homePageParagraph{
+  padding: 1% 10%;
+}
+
+/*CSS for about.html*/
+.container1{
+  display: flex;
+  flex-flow: row wrap; 
+}
+
+.gallery{
+  border: 1px solid gray;
+  padding: 2%;
+  margin: 1%;
+  flex: 1;
+}
+
+.gallery li{
+  background-color: #89DEEF;
+  display: inline-block;
+  border-radius: 10px;
+  padding: 5px 10px;
+  margin: 5px;
+}
+
+/* CSS for contact.html */
+.contactInfo{
+  padding: 1% 5%;
+}
+
+.contactDescription{
+  font-style: italic;
+  line-height: 0.2;
+  padding: 1% 0;
+}
+
+/*CSS for footer */
+.container2{
+  display: flex; 
+}
+
+.footerFlexItems{
+  /* border: 1px solid black; */
+  flex: 1 1 auto;
+  text-align: center;
+  height: 300px;
+  margin-top: 3%;
+}
+
+.item1{
+  background:
+    linear-gradient(
+      rgba(166, 169, 240, 0.45),
+      rgba(166, 169, 240, 0.45)
+    ),
+    url(images/donate.jpg);
+    background-size: cover;
+}
+
+.item2{
+  background:
+    linear-gradient(
+      rgba(166, 169, 240, 0.45),
+      rgba(166, 169, 240, 0.45)
+    ),
+    url(images/volunteer.jpg);
+  background-size: cover;
+}
+
+.item3{
+  background:
+    linear-gradient(
+      rgba(166, 169, 240, 0.45),
+      rgba(166, 169, 240, 0.45)
+    ),
+    url(images/location.png);
+}
+
+.footerFlexItems span{
+  position: relative;
+  top: 50%;
+  color: white;
+  font-weight: bold;
+  font-size: 25px;
+}
